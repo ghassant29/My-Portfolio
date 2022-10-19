@@ -1,0 +1,240 @@
+body{
+    margin: 0px;
+   
+}
+
+/* Left Box */
+.h{
+    
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-block-end: 0.2rem;
+    padding-top: 30px;
+}
+.hnb{
+font-size: 17px;
+margin-block-end: 2rem;
+margin-block-start: 0.4rem;
+
+
+}
+
+.box{
+display: flex;
+    
+}
+
+.left-box{
+    background-color:black;
+  padding:4.5% 15%;
+  padding-right: 21.5%;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  color: white;
+   
+}
+.connect{
+    font-size: 1.2rem;
+    margin-block-end: 0.3rem;
+}
+.social-icons{
+    font-size: 25px;
+    color: yellow;
+    padding: 0 5px;
+    
+}
+.me-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+.intro{
+    width: 200%;
+     position: relative;
+    right: 50%;   
+}
+
+                    /* Right Box */
+
+.right-box{
+background-color: yellow;
+padding: 2% 9.89%;
+border-bottom-left-radius: 50px;
+border-top-left-radius: 50px;
+z-index: 1;
+text-align: left;
+position: relative;
+right: 5%;
+font-family: 'Oswald', sans-serif;
+color: black;
+
+}
+
+.about-me{
+ border-top: 3px solid rgb(0, 0, 0);   
+}
+
+.resume{
+    background-color: black;
+    color: white;
+    padding: 5px 200px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.title{
+  
+    font-size: 20px;
+   
+}
+.description{
+    font-size: 15px; 
+    font-family: 'Roboto', sans-serif;
+}
+.subtitle{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+#projectscarousel{
+    
+    padding: 25% 20%;
+   
+    background-color: black;
+}
+
+           /* Testmonials */
+
+#testmonials{
+    background-color: black;
+}  
+.test-title{
+    text-align: center;
+}     
+.h1-tit{
+font-size: 3rem;
+color: orange;
+}
+   
+ 
+.hr-br{
+  
+    width: 20%;
+   margin: 10px 40%;
+  
+   border: 3px solid orange;
+}
+.customers{
+    display: flex;
+    
+    
+
+}
+.customer-box{
+   
+    margin: 5% 2%;
+    padding: auto 10%;
+    background-color: #edecec;
+    
+}
+.test-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    border: 15px solid black;
+    position: relative;
+    bottom: 13%;
+}
+.p-test{
+    line-height: 1.5;
+    padding-bottom: 30px;
+
+}
+@media(max-width:1028px) {
+.box{
+    display: block;
+}
+.left-box{
+    padding: 3% 0;
+   
+}
+.me-pic{
+    width: 15%;
+    height: 15%;
+}
+.h{
+    
+    font-size: 1.5rem;
+
+}
+.hnb{
+    font-size: 12px;
+}
+.social-icons{
+    font-size: 12px;
+    padding: 0 1px;
+}
+    .connect{
+        font-size: 9px;
+    }
+    .right-box{
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        padding-right: 30%;
+        right: 0;
+    }
+    .resume{
+        padding: 5px 100px;
+        font-size: 10px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .description{
+        font-size: 10px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .customer-box{
+   
+        margin: 20px 0;
+        margin-left: 24%;
+        padding: 10% 0;
+        max-width: 200px;
+      
+        text-align: center;
+        
+    }
+    .test-img{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 10px solid black;
+        position: relative;
+        bottom: 35%;
+    }
+    .p-test{
+        line-height: 1;
+        padding-bottom: 25px;
+        font-size: 10px;
+    
+    }
+    .h1-tit{
+        font-size: 2rem;
+    }
+    .hr-br{
+  
+        width: 10%;
+       position: absolute;
+       bottom: 10%;
+      
+       border: 2px solid orange;
+    }
+    .customers{
+        display:grid;
+    }
+}
